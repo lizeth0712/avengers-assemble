@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Vengadores Fundadores</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f2f2f2;
+      padding: 40px;
+      margin: 0;
+    }
+
+    h1 {
+      text-align: center;
+      color: #e74c3c;
+      font-size: 2.5em;
+      margin-bottom: 30px;
+    }
+
+    .heroes-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .hero-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 15px;
+      width: 180px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .hero-card:hover {
+      transform: scale(1.05);
+    }
+
+    .hero-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .hero-name {
+      font-size: 1.1em;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Vengadores Fundadores</h1>
+
+  <div class="heroes-container">
+    <div class="hero-card">
+      <img src="iron.jpeg" alt="Iron Man">
+      <div class="hero-name">Iron Man</div>
+    </div>
+    <div class="hero-card">
+      <img src="thor.jpg" alt="Thor">
+      <div class="hero-name">Thor</div>
+    </div>
+    <div class="hero-card">
+      <img src="hulk.jpeg" alt="Hulk">
+      <div class="hero-name">Hulk</div>
+    </div>
+    <div class="hero-card">
+      <img src="avis.jpg" alt="Avispa">
+      <div class="hero-name">Avispa</div>
+    </div>
+    <div class="hero-card">
+      <img src="hormiga.jpeg" alt="Hormiga">
+      <div class="hero-name">Hormiga</div>
+    </div>
+  </div>
+
+</body>
+</html>
